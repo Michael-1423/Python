@@ -1,0 +1,23 @@
+import turtle as t
+
+w = t.Screen()
+a = t.Turtle()
+a.color("yellow")
+w.bgcolor("red")
+a.goto(0, -300)
+a.begin_fill()
+a.fillcolor("black")
+a.speed(0)
+a.circle(300, steps=3)
+a.circle(300)
+a.circle(300, steps=5)
+a.circle(300, steps=10)
+# a.reset()
+a.undo()
+a.undo()
+a.undo()
+a.undo()
+a.end_fill()
+a.hideturtle()
+
+w.mainloop()

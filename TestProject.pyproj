@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f2e869dc-7d1f-4688-9bdc-d90be94a3450}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>a.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="a.py" />
+    <Compile Include="abc.py.py" />
+    <Compile Include="calculator.py" />
+    <Compile Include="desktop assistant.py" />
+    <Compile Include="forloop1.py" />
+    <Compile Include="forloop2.py" />
+    <Compile Include="here.py" />
+    <Compile Include="Jarvis.py" />
+    <Compile Include="rev.name.py" />
+    <Compile Include="reverse num.py" />
+    <Compile Include="rfjif.py" />
+    <Compile Include="sASasAS.py" />
+    <Compile Include="simple interest.py" />
+    <Compile Include="test.py" />
+    <Compile Include="test1.py" />
+    <Compile Include="test4.py" />
+    <Compile Include="untitled0.py" />
+    <Compile Include="untitled1.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
